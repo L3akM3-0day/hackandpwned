@@ -1,7 +1,27 @@
-body {
-	background:#7f8c8d;
+html, body , *, *:after, *:before{
+	margin:0;
+	padding:0;
+}
+@media screen and (max-width:1000px) {
+	header {
+		font-family:Verdana;
+		color:white;
+		background:black;	
+		font-size:1.3em;
+		text-align:center;
+	}
 }
 
-main {
-	font-family:Verdana;	
+header {
+                font-family:Verdana;
+                color:white;
+                background:black;
+                font-size:1.3em;
+        }
+
+
+
+
+
+header h1 {	
 }
