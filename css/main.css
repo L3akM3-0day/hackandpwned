@@ -65,7 +65,7 @@ header {
 }
 
 /**Mobile**/
-@media (max-width:450px){
+@media (max-device-width:450px){
 	.menu {
 		flex-flow: column wrap;
 	}
