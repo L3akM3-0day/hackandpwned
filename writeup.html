@@ -7,7 +7,7 @@ layout: default
 <h2>{{ categorie | first }}</h2>
 
 
-{% for writeup in site.categories.categorie %}
+{% for writeup in site.categories.Juniorctf %}
 <h3>{{writeup.title}} - {{writeup.date | date: '%B %d, %Y' }}</h3>
 <p>{{writeup.meta}}</p>
 {% endfor %}
