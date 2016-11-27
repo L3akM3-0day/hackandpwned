@@ -28,7 +28,7 @@ We can use a python script to automate each column of the Access Matrix to get t
 
 Here is my attack.py
 
-<pre class="code">
+<code class="code">
 #!/usr/bin/env python3.4
 
 import subprocess
@@ -63,4 +63,4 @@ for i in access.items():
         if i[0] == "1008":
                 result.insert(4,FLAG[32:40])
 print("".join(result))
-<pre>
+<code>
