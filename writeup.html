@@ -9,5 +9,5 @@ layout: default
 
 {% for writeup in site.categories.juniorctf %}
 <h3>{{writeup.title}} - {{writeup.date | date: '%B %d, %Y' }}</h3>
-<p>{{writeup.content}}</p>
+<p>{{writeup.meta}}</p>
 {% endfor %}
