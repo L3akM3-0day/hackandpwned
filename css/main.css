@@ -99,6 +99,8 @@ p {
 	line-height: 1.5em;
 }
 
-.code {
- background: #7f8c8d;
+pre.code {
+    background: #5F5D5D;
+    display: inline-block;
+    padding: 1em;
 }
