@@ -4,7 +4,7 @@ layout: default
 
 <h1>Writeup</h1>
 {% for categorie in site.categories %}
-{ % assign cat_name = categorie | first % }
+{ % assign cat_name = categorie[0] }
 <h2></h2>
 { % for writeups in site.categories.cat_name % }
 <h3>{{writeup.title}} - {{writeup.date | date: '%B %d, %Y' }}</h3>
