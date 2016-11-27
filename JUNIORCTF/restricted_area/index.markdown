@@ -4,16 +4,15 @@ layout: default
 
 <h1>Restricted Area</h1>
 <h2>Problem</h2>
-You are given a trial run as an admin in the Mystery Shack.
-Your first task is to define access permissions to the critical information, according to the matrix.
+<p>You are given a trial run as an admin in the Mystery Shack.
+Your first task is to define access permissions to the critical information, according to the matrix.</p>
 
-The information is stored on the special storage disk (https://yadi.sk/d/WF_evB3DyyaXT). There is also information about system users and a program, which checks, if the settings are correct. If you do it right according to the matrix, you`ll receive a flag.
+<p>The information is stored on the special storage disk (https://yadi.sk/d/WF_evB3DyyaXT). There is also information about system users and a program, which checks, if the settings are correct. If you do it right according to the matrix, you`ll receive a flag.</p>
 
 <h2>Resolution</h2>
 
-The url https://yadi.sk/d/WF_evB3DyyaXT give us a zip file which contain file.
-
-there is a file passwd which contain :
+<p>The url https://yadi.sk/d/WF_evB3DyyaXT give us a zip file which contain file.
+there is a file passwd which contain :</p>
 <pre class="code">
 dipper:x:1004:1004:,,,:/home/dipper:/bin/bash
 mabel:x:1005:1005:,,,:/home/mabel:/bin/bash
