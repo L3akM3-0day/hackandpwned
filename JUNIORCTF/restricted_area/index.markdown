@@ -63,3 +63,5 @@ for i in access.items():
                 result.insert(4,FLAG[32:40])
 print("".join(result))
 <pre>
+
+<p>Running this script give use the flag : 09D240FD704D9DCB60442F6CD3F45E47F0344B0D </p>
