@@ -6,13 +6,22 @@
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
 	</head>
 	<body>
-		<header>
-			<h1>HACKANDPWNED</h1>
-			<h2>Learn Hacking to stay Secure</h2>
-		</header>
-		<main>
-		
-			{{content}}
-		</main>
+		<div id="wrapper">
+			<header>
+				<div class="TitleWrapper">
+					<h1>HACKANDPWNED</h1>
+					<h2>&gt;Learn hacking to stay secure</h2>
+			  </div>
+				<nav class="menu">
+					<a href="#">Home</a>
+					<a href="#">News</a>
+					<a href="#">Write Up</a>
+					<a href="#">About Me</a>
+				</nav>
+			</header>
+			<main>
+				{{content}}
+			</main>
+		</div>
 	</body>
 </html>
