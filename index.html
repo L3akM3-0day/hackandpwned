@@ -4,6 +4,6 @@ layout: default
 
 <h1>Welcome - Hackandpwned</h1>
 {% for writeup in site.posts %}
-<h2>{{writeup.title}} - {{writeup.date}}</h2>
+<h2>{{writeup.title}} - {{writeup.date | date: '%B %d, %Y' }}}}</h2>
 <p>{{writeup.content}}</p>
 {% endfor %}
