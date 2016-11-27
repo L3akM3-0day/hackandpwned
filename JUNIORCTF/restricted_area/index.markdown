@@ -74,7 +74,7 @@ for i in access.items():
         if i[0] == "1008":
                 result.insert(4,FLAG[32:40])
 print("".join(result))
-<pre>
+</pre>
 
 <p>Running this script give use the flag : 09D240FD704D9DCB60442F6CD3F45E47F0344B0D </p>
 <p>Happy Hacking</p>
