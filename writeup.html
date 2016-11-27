@@ -4,14 +4,10 @@ layout: default
 
 <h1>Writeup</h1>
 {% for categorie in site.categories %}
-
-<h2>{{ categorie | first }}</h2>
-{% for writeups in categorie %}
-{% for writeup in writeups  %}
-{% if forloop.index > 0 %}
+{ % assign cat_name = categorie | first % }
+<h2></h2>
+{% for writeups in site.categories.cat_name %}
 <h3>{{writeup.title}} - {{writeup.date | date: '%B %d, %Y' }}</h3>
 <p>{{writeup.meta}}</p>
-{% endif %}
-{% endfor %}
 {% endfor %}
 {% endfor %}
