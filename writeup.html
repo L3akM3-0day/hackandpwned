@@ -8,9 +8,10 @@ layout: default
 <h2>{{ categorie | first }}</h2>
 {% for writeups in categorie %}
 {% for writeup in writeups  %}
-{% unless%}
+{% unless writeup.title == blank %}
 <h3>{{writeup.title}} - {{writeup.date | date: '%B %d, %Y' }}</h3>
 <p>{{writeup.meta}}</p>
+{% endunless %}
 {% endfor %}
 {% endfor %}
 {% endfor %}
