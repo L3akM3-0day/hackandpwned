@@ -3,10 +3,11 @@ layout: default
 ---
 
 <h1>Writeup</h1>
-{% for writeup in site.categories.writeup %}
 {% for categorie in site.categories %}
 <h2>{{ categorie | first }}</h2>
 {% endfor %}
+
+{% for writeup in site.categories.juniorctf %}
 <h3>{{writeup.title}} - {{writeup.date | date: '%B %d, %Y' }}</h3>
 <p>{{writeup.content}}</p>
 {% endfor %}
