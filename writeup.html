@@ -8,7 +8,7 @@ layout: default
 <h2>{{ categorie | first }}</h2>
 {% for writeups in categorie offset:0 %}
 
-{% for writeup in writeups offset: %}
+{% for writeup in writeups %}
 {% unless writeup == blank %}
 <h3>{{writeup.title}} - {{writeup.date | date: '%B %d, %Y' }}</h3>
 <p>{{writeup.meta}}</p>
