@@ -7,7 +7,7 @@ layout: default
 {% assign cat_name = categorie[0] %}
 <h2>{{cat_name}}</h2>
 {% for writeup in site.categories[cat_name] %}
-<h3>{{writeup.title}} - {{writeup.date | date: '%B %d, %Y' }}</h3>
+<h3><a href="#">{{writeup.title}} - {{writeup.date | date: '%B %d, %Y' }}</a></h3>
 <p>{{writeup.meta}}</p>
 {% endfor %}
 {% endfor %}
