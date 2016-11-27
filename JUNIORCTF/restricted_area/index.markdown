@@ -14,7 +14,7 @@ The information is stored on the special storage disk (https://yadi.sk/d/WF_evB3
 The url https://yadi.sk/d/WF_evB3DyyaXT give us a zip file which contain file.
 
 there is a file passwd which contain :
-<pre>
+<pre class="code">
 dipper:x:1004:1004:,,,:/home/dipper:/bin/bash
 mabel:x:1005:1005:,,,:/home/mabel:/bin/bash
 soos:x:1006:1006:,,,:/home/soos:/bin/bash
