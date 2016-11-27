@@ -5,8 +5,10 @@ layout: default
 <h1>Writeup</h1>
 {% for categorie in site.categories %}
 <h2>{{ categorie | first }}</h2>
-{% for writeup in categorie %}
+{% for writeups in categorie %}
+{% for writeup in writeups %}
 <h3>{{writeup.title}} - {{writeup.date | date: '%B %d, %Y' }}</h3>
 <p>{{writeup.meta}}</p>
+{% endfor %}
 {% endfor %}
 {% endfor %}
