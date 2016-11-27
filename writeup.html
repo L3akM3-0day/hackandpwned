@@ -4,7 +4,9 @@ layout: default
 
 <h1>Writeup</h1>
 {% for writeup in site.categories.writeup %}
-<h2>{% for categorie in site.categories %}</h2>
+{% for categorie in site.categories %}
+<h2>{{ category | first }}</h2>
+{% endfor %}
 <h3>{{writeup.title}} - {{writeup.date | date: '%B %d, %Y' }}</h3>
 <p>{{writeup.content}}</p>
 {% endfor %}
