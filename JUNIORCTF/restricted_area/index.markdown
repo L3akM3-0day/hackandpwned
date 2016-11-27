@@ -22,7 +22,7 @@ stan:x:1008:1008:,,,:/home/stan:/bin/bash
 </pre>
 
 We need to set the read permissions for the 3 account as specified to this Access Matrix to get  the flag
-<img src="{{ site.baseurl}}/im/restricted_area.png" alt="restricted_area">
+<img src="{{ site.baseurl}}/img/restricted_area.png" alt="restricted_area">
 
 We can use a python script to automate each column of the Access Matrix to get the flag :
 
