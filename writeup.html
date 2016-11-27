@@ -8,10 +8,10 @@ layout: default
 <h2>{{ categorie | first }}</h2>
 {% for writeups in categorie %}
 {% for writeup in writeups  %}
-{% unless writeup.title == blank %}
+{% if forloop.index > 0 %}
 <h3>{{writeup.title}} - {{writeup.date | date: '%B %d, %Y' }}</h3>
 <p>{{writeup.meta}}</p>
-{% endunless %}
+{% endif %}
 {% endfor %}
 {% endfor %}
 {% endfor %}
