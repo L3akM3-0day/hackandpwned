@@ -87,7 +87,7 @@ main {
 
 main h1 {
 	border-bottom: 2px dashed #23A238;
-	padding:1em;
+	margin:1em;
 }
 
 p {
