@@ -54,6 +54,15 @@ header {
 	background:#ecf0f1;
 	color:#2c3e50;
 }
+.menu .current{
+	background:black;
+	color:white;
+}
+
+.menu .current:hover {
+	background:black;
+	color:white;
+}
 /**DESKTOP WITH MIN SIZE OF 800px**/
 @media (max-width:800px){
 	.menu {
