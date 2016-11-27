@@ -21,13 +21,12 @@ wendy:x:1007:1007:,,,:/home/wendy:/bin/bash
 stan:x:1008:1008:,,,:/home/stan:/bin/bash
 </pre>
 
-We need to set the read permissions for the 3 account as specified to this Access Matrix to get  the flag
+<p>We need to set the read permissions for the 3 account as specified to this Access Matrix to get  the flag</p>
 <img src="{{ site.baseurl}}/img/restricted_area.png" alt="restricted_area">
 
-We can use a python script to automate each column of the Access Matrix to get the flag :
+<p>We can use a python script to automate each column of the Access Matrix to get the flag :
 
-Here is my attack.py
-
+Here is my attack.py</p></br>
 <code class="code">
 #!/usr/bin/env python3.4
 
