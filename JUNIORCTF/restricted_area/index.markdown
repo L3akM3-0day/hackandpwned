@@ -26,7 +26,7 @@ stan:x:1008:1008:,,,:/home/stan:/bin/bash
 
 <p>We can use a python script to automate each column of the Access Matrix to get the flag :
 
-Here is my attack.py</p></br>
+Here is my attack.py</p>
 <pre class="code">
 #!/usr/bin/env python3.4
 
