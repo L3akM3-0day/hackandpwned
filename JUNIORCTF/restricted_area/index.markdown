@@ -11,8 +11,20 @@ Your first task is to define access permissions to the critical information, acc
 
 <h2>Resolution</h2>
 
-<p>The url https://yadi.sk/d/WF_evB3DyyaXT give us a zip file which.
-there is a file passwd which contain :</p>
+<p>The url https://yadi.sk/d/WF_evB3DyyaXT give a image.bin file
+this image file contains multiple files :
+
+<pre clase="code">
+check_32        lazy_white_cat   silly_red_cat    sly_black_pig
+check_64        lazy_white_dog   silly_red_dog    sly_red_cat
+lazy_black_cat  lazy_white_pig   silly_red_pig    sly_red_dog
+lazy_black_dog  lost+found       silly_white_cat  sly_red_pig
+lazy_black_pig  passwd           silly_white_dog  sly_white_cat
+lazy_red_cat    silly_black_cat  silly_white_pig  sly_white_dog
+lazy_red_dog    silly_black_dog  sly_black_cat    sly_white_pig
+lazy_red_pig    silly_black_pig  sly_black_dog
+</pre>
+the file passwd contains :</p>
 <pre class="code">
 dipper:x:1004:1004:,,,:/home/dipper:/bin/bash
 mabel:x:1005:1005:,,,:/home/mabel:/bin/bash
@@ -65,3 +77,4 @@ print("".join(result))
 <pre>
 
 <p>Running this script give use the flag : 09D240FD704D9DCB60442F6CD3F45E47F0344B0D </p>
+<p>Happy Hacking</p>
