@@ -90,7 +90,8 @@ main h1 {
 }
 
 main h2 {
-	margin:1em;	
+	margin:1em 0;
+	color:#D05353
 }
 
 p {
