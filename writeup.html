@@ -5,9 +5,11 @@ layout: default
 <h1>Writeup</h1>
 {% for categorie in site.categories %}
 {% assign cat_name = categorie[0] %}
-<h2>{{cat_name}}</h2>
-{% for writeup in site.categories[cat_name] %}
-<h3><a href="{{ site.baseurl }}/{{cat_name | upcase }}/{{writeup.title | downcase | replace:' ','_'}}/">{{writeup.title}} - {{writeup.date | date: '%B %d, %Y' }}(en)</a> | <a href="{{ site.baseurl }}/{{cat_name | upcase }}/{{writeup.title | downcase | replace:' ','_' | append: '_fr'}}/">{{writeup.title}} - {{writeup.date | date: '%B %d, %Y' }}(fr)</a>
-<p>{{writeup.meta}}</p>
-{% endfor %}
-{% endfor %}
+<section id="{{cat_name}}">
+  <a href="#{{cat_name}}"><h2>{{cat_name}}</h2></a>
+  {% for writeup in site.categories[cat_name] %}
+  <h3><a href="{{ site.baseurl }}/{{cat_name | upcase }}/{{writeup.title | downcase | replace:' ','_'}}/">{{writeup.title}} - {{writeup.date | date: '%B %d, %Y' }}(en)</a> | <a href="{{ site.baseurl }}/{{cat_name | upcase }}/{{writeup.title | downcase | replace:' ','_' | append: '_fr'}}/">{{writeup.title}} - {{writeup.date | date: '%B %d, %Y' }}(fr)</a>
+  <p>{{writeup.meta}}</p>
+  {% endfor %}
+<section>
+  {% endfor %}

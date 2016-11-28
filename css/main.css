@@ -91,10 +91,27 @@ main h1 {
 
 main h2 {
 	margin:1em 0;
-	color:#D05353
 }
 
-p {
+main section .content {
+	display: none;
+}
+
+main section a {
+	text-decoration: none;
+	color:white;
+
+}
+
+main section a:hover {
+	color:#D05353;
+
+}
+
+main section:target .content {
+	display: block;
+
+}p {
 	padding:2em 0;
 	line-height: 1.5em;
 }
