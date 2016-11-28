@@ -4,10 +4,11 @@ layout: default
 <a href="{{site.baseurl}}/JUNIORCTF/restricted_area">English Version</a>
 <h1>Restricted Area</h1>
 <h2>Problem</h2>
-<p>You are given a trial run as an admin in the Mystery Shack.
+<p>Vous êtes en essaie en tant qu'admin chez Mystery Shack.
+Votre premiere tâche est de definir les permissions d'accès aux informations critique, selon cette matrice
 Your first task is to define access permissions to the critical information, according to the matrix.</p>
 
-<p>The information is stored on the special storage disk (https://yadi.sk/d/WF_evB3DyyaXT). There is also information about system users and a program, which checks, if the settings are correct. If you do it right according to the matrix, you`ll receive a flag.</p>
+<p>L'information est stockée sur le disk de stockage(https://yadi.sk/d/WF_evB3DyyaXT). Il y a aussi les infos concernant les utilisateurs système et un programe, qui vérifie si les paramétres sont corrects. Si vous le faite bien selon la Matrice, vous receverez le flags</p>
 
 <h2>Resolution</h2>
 
