@@ -1,6 +1,13 @@
 ---
 layout: default
 ---
-
-<h1>Welcome - Hackandpwned</h1>
-<p>Welcome on Hack and pwned, here you'll find some CTF's write up and more</p>
+{% include jumbotron.html %}
+<div class="container">
+	<div class="post-header">	
+		{% for post in site.categories['New'] limit:1%}
+		<h1 class="post-title">{{ post.title }}</h1>
+		<p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
+		<p>{{ post.content }}</p>
+		{% endfor %}
+	</div>
+</div>
