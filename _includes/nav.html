@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="{{ base.url }}/img/hackandpwnedlogo.png" style="max-width:150px; margin-top:-7px;"></a>
+      <a class="navbar-brand" href="#"><img src="{{site.baseurl}}/img/hackandpwnedlogo.png" style="max-width:150px; margin-top:-7px;"></a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -38,12 +38,15 @@
 				<li><a href="#">All Writeup</a></li>
 				<li role="separator" class="divider"></li>
 				<li class="dropdown-header">Junior CTF</li>
-				<li><a href="{{ base.url }}/CTF/JUNIORCTF/restricted_area">Restricted area</a></li>
+				<li><a href="{{site.baseurl}}/CTF/JUNIORCTF/restricted_area">Restricted area</a></li>
 				<li role="separator" class="divider"></li>
 				<li class="dropdown-header">Vulnhub</li>	
 			</ul>
 		</li>
-		<!-- Video dropdown --!>
+        <li class="dropdown {% if page.url contains '/DEVOPS' %}active{% endif %}">
+            
+        </li>
+		<!-- Video dropdown -->
 		<li class="dropdown {% if page.url contains '/Video' %}active{% endif %}">
 			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Video<span class="caret"></span></a>
 		</li>
